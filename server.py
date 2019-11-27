@@ -4,8 +4,6 @@ from random import random
 from horoscope import generate_prophecies
 
                       
-TEMPLATE_PATH.insert(0,'c:/python/py_server/views')
-
 @route("/")
 @view("prediction")
 def index():
